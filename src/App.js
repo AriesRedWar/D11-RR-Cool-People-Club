@@ -1,15 +1,15 @@
-
 import './App.css';
-import NavBar from './Navbar'
+import Navigation from './components/navbar'
 import CardHome from './CardHome'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import MilestoneProjects from './components/MilestoneProjects'
 
 function App() {
   return (
     <div>
-    <NavBar />
+    <Navigation />
     <CardHome />
+    <MilestoneProjects/>
     </div>
   );
 }

@@ -8,16 +8,16 @@ export default function NavBar () {
       onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
     >
       <Nav.Item>
-        <Nav.Link href="/about">Home</Nav.Link>
+        <Nav.Link href="#about">Home</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="/milestoneproject">Milestone Projects</Nav.Link>
+        <Nav.Link href="#milestoneproject">Milestone Projects</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="/Aboutus">About us</Nav.Link>
+        <Nav.Link href="#Aboutus">About us</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="/contactus">Contact Us</Nav.Link>
+        <Nav.Link href="#contactus">Contact Us</Nav.Link>
       </Nav.Item>
       </Nav>
       
