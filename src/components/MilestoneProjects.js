@@ -35,6 +35,17 @@ export default function MilestoneProjects() {
                 </Carousel.Caption>
 
             </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src="/Milestone Project.png"
+                    alt="Snake gane"
+                />
+                <Carousel.Caption>
+                    <h3>Snake Game by Brandon</h3>
+                </Carousel.Caption>
+
+            </Carousel.Item>
         </Carousel>
     );
 }
