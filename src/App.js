@@ -1,10 +1,15 @@
+
 import './App.css';
-import Navigation from "./components/navbar.js"
+import NavBar from './Navbar'
+import CardHome from './CardHome'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
-<div>
-<Navigation/>
+    <div>
+    <NavBar />
+    <CardHome />
     </div>
   );
 }
