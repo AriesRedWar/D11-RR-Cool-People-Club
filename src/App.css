@@ -1,5 +1,11 @@
+body {
+  background-color: blue;
+  color: Yellow;
+}
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -36,3 +42,14 @@
     transform: rotate(360deg);
   }
 }
+
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+}
+
+
