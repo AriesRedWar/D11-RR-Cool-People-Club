@@ -27,9 +27,12 @@ export default function MilestoneProjects() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="/hotsprings.jpg"
-                    alt="Live life"
+                    src="/Tito_screenshot.png"
+                    alt="Horror game"
                 />
+                <Carousel.Caption>
+                    <h3>Horror Movie Trivia by Tito</h3>
+                </Carousel.Caption>
 
             </Carousel.Item>
         </Carousel>
